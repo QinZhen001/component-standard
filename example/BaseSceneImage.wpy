@@ -1,0 +1,57 @@
+<style type="less" scoped>
+  .concent_img {
+    width: 100%;
+    display: block;
+  }
+</style>
+
+<template>
+  <image
+      src='{{imgUrl}}'
+      class='concent_img'
+      @tap='imgTap'
+      data-src="{{imgUrl}}"
+      data-index="{{index}}"
+      lazy-load='true'
+      @error='sendImgErr'
+      @load="imgLoad"
+      mode="widthFix"
+  >
+  </image>
+</template>
+
+<script>
+  import wepy from 'wepy';
+
+  export default class BaseSceneImage extends wepy.component {
+    components = {}
+    props = {
+      imgUrl: {
+        type: String,
+        default: null
+      },
+      index: {
+        type: Number,
+        default: ''
+      }
+    }
+    data = {}
+    events = {}
+
+    methods = {
+      imgTap() {
+        console.log('点击图片')
+      },
+      sendImgErr() {
+        console.log('图片加载失败')
+      },
+      imgLoad() {
+      }
+    }
+
+    onLoad() {
+
+    }
+  }
+</script>
+

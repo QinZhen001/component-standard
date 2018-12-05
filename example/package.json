@@ -1,0 +1,11 @@
+{
+  "name": "base-scene-image",
+  "version": "1.0.0",
+  "description": "a example for wepy component",
+  "main": "BaseSceneImage.wpy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qz",
+  "license": "ISC"
+}
