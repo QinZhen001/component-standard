@@ -64,7 +64,7 @@ package.json  (配置文件)
 README.md  (说明文档)
 xxx.wpy (入口)
 dist文件夹 （打包后的文件）
-screenshot文件夹 （组件的截图）
+screenshot文件夹 （组件的截图）  (截图名要与组件名相同)
 ```
 
 

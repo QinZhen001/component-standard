@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="042a7e6d-3cdf-4c2c-be7b-ff5c85ea3db2" name="Default Changelist" comment="" />
+    <list default="true" id="042a7e6d-3cdf-4c2c-be7b-ff5c85ea3db2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/screenshot/screenshot.png" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -102,11 +105,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/screenshot/screenshot.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -133,8 +131,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="456" />
-    <option name="y" value="268" />
+    <option name="x" value="294" />
+    <option name="y" value="289" />
     <option name="width" value="1137" />
     <option name="height" value="800" />
   </component>
@@ -170,7 +168,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/git_project/wepy-component" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xhw-cli" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -197,15 +195,15 @@
       <option name="presentableId" value="Default" />
       <updated>1544011817119</updated>
       <workItem from="1544011818305" duration="2733000" />
-      <workItem from="1544066833930" duration="1034000" />
+      <workItem from="1544066833930" duration="1646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3767000" />
+    <option name="totallyTimeSpent" value="4379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="456" y="268" width="1137" height="800" extended-state="1" />
+    <frame x="294" y="289" width="1137" height="800" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="npm" order="0" side_tool="true" />
