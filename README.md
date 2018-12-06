@@ -13,15 +13,15 @@ wepy组件规范
 * detail 详情页
 
 
-```javascript
+```
 ┣━ index 首页 ● 包括以下组件             
         ┣━ list               列表
         ┣━ banner        轮播图           
         ┣━ tab-up         上面的tabbar          
         ┣━ tab-down     下面的tabbar      
-	    ┣━ refresh-button 刷新的按钮 (小挂件)
-		┣━ reward-button 赞赏的按钮 (小挂件)
-		┣━ webview-button 跳转webview的按钮(小挂件) 
+	     ┣━ refresh-button   刷新的按钮 (小挂件)
+		  ┣━ reward-button   赞赏的按钮 (小挂件)
+	   	┣━ webview-button    跳转webview的按钮(小挂件) 
 ┣━ detail 详情页  ● 包括以下组件 
                ┣━ baseScene类 音乐图文，图文，视频，祝福场景  
                ┣━ list     列表            
@@ -30,20 +30,27 @@ wepy组件规范
          ┣━ list     列表     
          ┣━ tab-down     下面的tabbar      
 ┣━ collection 收藏页 ● 包括以下组件 
-         ┣━ user  个人信息            
+         ┣━ userInfo  用户信息            
          ┣━ list     列表          
          ┣━ tab-down     下面的tabbar            
 ┣━ channel 频道页 ● 包括以下组件 	
-		 ┣━ user  个人信息  
+					 ┣━ userInfo  用户信息  
+					 ┣━ list     列表     
 ┣━ author 作者页 ● 包括以下组件 	
-         ┣━ user  个人信息  
+           ┣━ ususerInfoer  用户信息 
+		      ┣━ list     列表     
 ```
+
+
+
 
 
 ## 提醒
 
 * **小挂件全部采用cover-view实现**
 * 组件不用进行网络请求，数据由外部传入
+* 分清楚组件内部应该处理的事件和应该传递到页面处理的事件
+* list里面每一项都是一个card
 
 
 
@@ -78,6 +85,6 @@ package.json 必填字段
 
 
 ### 包命名规范
-npm包命名： **描述性词语-组件-皮肤**
+npm包命名： **描述性词语-组件-皮肤**   (全小写字母)
 
 例如：refresh-button-xxx
