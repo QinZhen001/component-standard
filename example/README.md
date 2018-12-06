@@ -7,7 +7,7 @@
 
 ### install
 ```javascript
- npm install wepy-swipe-delete --save
+ npm install base-scene-image --save
 ```
 
 
