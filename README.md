@@ -19,9 +19,9 @@ wepy组件规范
         ┣━ banner        轮播图           
         ┣━ tab-up         上面的tabbar          
         ┣━ tab-down     下面的tabbar      
-	     ┣━ refresh-button   刷新的按钮 (小挂件)
-		  ┣━ reward-button   赞赏的按钮 (小挂件)
-	   	┣━ webview-button    跳转webview的按钮(小挂件) 
+     ┣━ refresh-button   刷新的按钮 (小挂件)
+	 ┣━ reward-button   赞赏的按钮 (小挂件)
+ 	┣━ webview-button    跳转webview的按钮(小挂件) 
 ┣━ detail 详情页  ● 包括以下组件 
                ┣━ baseScene类 音乐图文，图文，视频，祝福场景  
                ┣━ list     列表            
