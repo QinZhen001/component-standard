@@ -19,7 +19,7 @@ wepy组件规范
         ┣━ banner        轮播图           
         ┣━ tab-up         上面的tabbar          
         ┣━ tab-down     下面的tabbar      
-     ┣━ refresh-button   刷新的按钮 (小挂件)
+        ┣━ refresh-button   刷新的按钮 (小挂件)
 	 ┣━ reward-button   赞赏的按钮 (小挂件)
  	┣━ webview-button    跳转webview的按钮(小挂件) 
 ┣━ detail 详情页  ● 包括以下组件 
@@ -37,7 +37,7 @@ wepy组件规范
 		 ┣━ userInfo  用户信息  
 		 ┣━ list     列表     
 ┣━ author 作者页 ● 包括以下组件 	
-        ┣━ ususerInfoer  用户信息 
+           ┣━ ususerInfoer  用户信息 
 	    ┣━ list     列表     
 ```
 
@@ -47,8 +47,8 @@ wepy组件规范
 
 ## 提醒
 
-* **小挂件全部采用cover-view实现**
-* 组件不用进行网络请求，数据由外部传入
+* **小挂件尽量采用cover-view实现**
+* 组件不用自己获取数据，数据由外部传入
 * 分清楚组件内部应该处理的事件和应该传递到页面处理的事件
 * list里面每一项都是一个card
 
