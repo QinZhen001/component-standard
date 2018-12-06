@@ -34,11 +34,11 @@ wepy组件规范
          ┣━ list     列表          
          ┣━ tab-down     下面的tabbar            
 ┣━ channel 频道页 ● 包括以下组件 	
-					 ┣━ userInfo  用户信息  
-					 ┣━ list     列表     
+		 ┣━ userInfo  用户信息  
+		 ┣━ list     列表     
 ┣━ author 作者页 ● 包括以下组件 	
-           ┣━ ususerInfoer  用户信息 
-		      ┣━ list     列表     
+        ┣━ ususerInfoer  用户信息 
+	    ┣━ list     列表     
 ```
 
 
